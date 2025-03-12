@@ -1,0 +1,51 @@
+/* ATTRIBUTION */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* GLOBAL */
+* {
+    font-family: "Outfit", sans-serif;
+    border-radius: 16px;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+/* QR CODE COMPONENT */
+.QR-code-component {
+    display: grid;
+    justify-items: center;
+    margin: 25dvh auto;
+    background-color: hsl(0, 0%, 100%);
+    width: 280px;
+    padding: 12px;
+    box-shadow: 0px 12px 12px hsla(0, 0%, 0%, 0.08);
+}
+
+.QR-code-component>div {
+    max-width: 260px;
+    text-align: center;
+}
+
+.QR-code-component>div>p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+}
+
+.QR-code-component>div>h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.QR-code-component>img {
+    width: 100%;
+}

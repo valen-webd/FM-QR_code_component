@@ -10,52 +10,22 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/styles.css">
 
   <title>Frontend Mentor | QR code component</title>
-
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-
-    * {
-      font-family: "Outfit", sans-serif;
-      background-color: hsl(212, 45%, 89%);
-      border-radius: 16px;
-    }
-
-    .QR-code-component {
-      display: grid;
-      justify-items: center;
-      margin: 25dvh auto;
-      background-color: hsl(0, 0%, 100%);
-      width: 280px;
-      padding: 12px;
-    }
-
-    .QR-code-component>p {
-      font-size: 15px;
-      max-width: 260px;
-      text-align: center;
-      background-color: hsl(0, 0%, 100%);
-    }
-  </style>
 </head>
 
 <body>
-  <div class="QR-code-component">
-    <img src="images/image-qr-code.png" style="width: 280px;">
-    <p style="font-weight: 700; color: hsl(218, 44%, 22%); font-size: 20px;">Improve your front-end skills by building
-      projects</p>
-    <p style="font-weight: 400; color: hsl(216, 15%, 48%);">Scan the QR code to visit Frontend Mentor and take your
-      coding skills to the next level</p>
+  <div class="QR-code-component" role="QR-code-component">
+    <img src="images/image-qr-code.png" alt="QR Code Image">
+    <div role="component-text">
+      <h1>Improve your front-end skills by building
+        projects</h1>
+      <p>Scan the QR code to visit Frontend Mentor and take your
+        coding skills to the next level</p>
+    </div>
   </div>
-  <div class="attribution">
+  <div class="attribution" role="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">valen-webd</a>.
   </div>
